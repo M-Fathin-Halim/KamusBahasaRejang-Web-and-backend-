@@ -1,0 +1,81 @@
+<style>
+    @font-face {
+        font-family: rlabel;
+        src: url(bangkahulu.ttf);
+    }
+    :root {
+        --primary-color: #DD5F54;
+        --secondary-color: #B5483F;
+        --accent-color: #E2766C;
+        --highlight-color: #E90709;
+        --dark-color: #BA4541;
+    }
+    body {
+        background-color: var(--primary-color);
+    }
+    .custom-card {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .custom-card img {
+        height: auto;
+        max-height: 200px;
+        width: auto;
+        max-width: 200px;
+        box-shadow: none;
+        object-fit: contain;
+    }
+
+    .custom-form input {
+        width: 100%;
+    }
+
+    .centered-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .navbar {
+        background-color: var(--secondary-color);
+    }
+    .navbar-brand {
+        color: white;
+        font-weight: bold;
+    }
+    main.container {
+        color: white;
+    }
+    .btn-primary {
+        background-color: var(--accent-color);
+        border-color: var(--secondary-color);
+    }
+    .btn-primary:hover {
+        background-color: var(--accent-color);
+        border-color: var(--accent-color);
+    }
+    .btn-primary:active {
+        background-color: var(--highlight-color);
+        border-color: var(--highlight-color);
+    }
+    .card {
+        background-color: var(--dark-color);
+        color: white;
+    }
+    .center-heading {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+    <a class="navbar-brand" href="#">
+        <img src="a.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+        Kamus Rejang Kito
+    </a>
+</nav>
+</header>
